@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+body{
+    margin: 0 px;
+    padding: 0 px;
+}
+section {
+    height: 100vh;
+  }
+.gambar{
+    margin-top: 2%;
+}
+.fade-in {
+    animation: fadeIn 5s;
+    -webkit-animation: fadeIn 5s;
+    -moz-animation: fadeIn 5s;
+    -o-animation: fadeIn 5s;
+    -ms-animation: fadeIn 5s;
+}
+.maintext {
+    text-align: left;
+    font-family: 'Muli', sans-serif;
+}
+.artikel {
+    margin-top: 2%;
+    text-align: justify;
+}
+.kredit{
+    text-align: left;
+    font-size: 11px;
+}
+
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+.video {
+    margin-top: 5%;
+}
+
+.tag {
+    opacity: 0;
+    transform: translate(0, 10vh);
+    transition: all 1s;
+  }
+  
+  .tag.visible {
+    opacity: 1;
+    transform: translate(0, 0);
+  }
+.shadow {
+    filter: drop-shadow(5px 5px 5px #222);
+}  
